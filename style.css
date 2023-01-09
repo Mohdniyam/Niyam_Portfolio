@@ -366,18 +366,20 @@ nav .fa-bars{
 @media only screen and (max-width: 600px){
     #header {
         background-image: url(./images/phone.jpg);
+        margin-top: 10px;
+        background-size:cover;
+        background-position: center;
+        background-repeat: repeat;
+
     }
     .header-text{
-        margin-top: 40%;
-        font-size: 16px;
-        color: #080808;
+        overflow: hidden;
     }
     .header-text h1{
-        font-size: 40px;
+        overflow: hidden;;
     }
     .header-text p{
-        font-size: 30px;
-        font-weight: 1000;
+        overflow: hidden;
 
     }
     
